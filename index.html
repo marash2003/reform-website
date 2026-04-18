@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reform Cameroon - Empowering Skills, Agriculture, and Employment">
+    <title>Reform Cameroon - Skills. Agriculture. Opportunity.</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-wrapper">
+            <a href="/" class="nav-logo">
+                <img src="images/logo.png" alt="Reform Cameroon" class="logo-img">
+                <span class="logo-text">Reform</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="/" class="nav-link active">Home</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#testimonials" class="nav-link">Success Stories</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn btn-sm btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video -->
+    <section class="hero-section">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://videos.pexels.com/video-files/3571215/3571215-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="hero-content">
+            <div class="hero-text" id="heroText">
+                <span class="hero-label animate-fade-in-down">Transform Your Future</span>
+                <h1 class="hero-title animate-fade-in-up">
+                    Unlock Your <span class="gradient-accent">Potential</span> Today
+                </h1>
+                <p class="hero-description animate-fade-in-up">
+                    Join thousands of Cameroonians transforming their lives through integrated skills training, sustainable agriculture, and entrepreneurship programs. Start your journey to success.
+                </p>
+                <div class="hero-cta animate-fade-in-up">
+                    <a href="#programs" class="btn btn-primary btn-large">
+                        <span>Explore Programs</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#testimonials" class="btn btn-secondary btn-large">
+                        <span>Success Stories</span>
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-in">
+                    <div class="stat-item">
+                        <span class="stat-value">10K+</span>
+                        <span class="stat-label">Graduates</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">95%</span>
+                        <span class="stat-label">Employment Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">4</span>
+                        <span class="stat-label">Programs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="scroll-indicator" id="scrollDown">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </button>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Reform Matters</h2>
+                <p>Addressing Cameroon's most pressing challenges with integrated solutions</p>
+            </div>
+
+            <div class="impact-grid">
+                <!-- Card 1 -->
+                <div class="impact-card" style="--delay: 0s">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop" alt="Youth Unemployment">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h3>Youth Unemployment Crisis</h3>
+                        <p>Over 30% of Cameroon's youth lack meaningful employment. We bridge this gap through comprehensive training and direct job placement with leading employers across Africa.</p>
+                        <div class="card-stat">30%+ Affected</div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="impact-card" style="--delay: 0.1s">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Digital Skills">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Digital Skills Gap</h3>
+                        <p>Limited digital literacy creates barriers to opportunity in our increasingly connected world. Our cutting-edge programs develop modern, in-demand competencies from coding to digital marketing.</p>
+                        <div class="card-stat">Critical Gap</div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="impact-card" style="--delay: 0.2s">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop" alt="Food Security">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="icon-box">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Food Insecurity & Poverty</h3>
+                        <p>Many rural communities lack modern sustainable farming solutions. We promote advanced livestock practices that ensure food security, income generation, and environmental sustainability for families.</p>
+                        <div class="card-stat">Urgent Need</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section with Images -->
+    <section class="programs-section" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Four Integrated Pillars</h2>
+                <p>Each program works independently and together within one powerful ecosystem</p>
+            </div>
+
+            <div class="programs-container">
+                <!-- Program 1 -->
+                <div class="program-item">
+                    <div class="program-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=350&fit=crop" alt="Computer Training">
+                        <div class="program-badge">Most Popular</div>
+                    </div>
+                    <div class="program-info">
+                        <span class="program-num">01</span>
+                        <h3>Computer Training</h3>
+                        <p>Master in-demand digital skills including web development, mobile apps, cybersecurity, digital marketing, and data analytics. Our curriculum is designed with industry leaders and updated quarterly.</p>
+                        <ul class="program-features">
+                            <li><span>✓</span> Industry-certified instructors</li>
+                            <li><span>✓</span> 6-month intensive program</li>
+                            <li><span>✓</span> Job placement assistance</li>
+                            <li><span>✓</span> Internship opportunities</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Program 2 -->
+                <div class="program-item reverse">
+                    <div class="program-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&h=350&fit=crop" alt="Agribusiness">
+                    </div>
+                    <div class="program-info">
+                        <span class="program-num">02</span>
+                        <h3>Livestock Agribusiness</h3>
+                        <p>Transform traditional farming into profitable, sustainable operations. Learn modern techniques for poultry, goat, cattle, and pig farming with proven ROI models used across Africa.</p>
+                        <ul class="program-features">
+                            <li><span>✓</span> Modern farming techniques</li>
+                            <li><span>✓</span> Business plan development</li>
+                            <li><span>✓</span> Microcredit assistance</li>
+                            <li><span>✓</span> Market connections</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Program 3 -->
+                <div class="program-item">
+                    <div class="program-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=350&fit=crop" alt="Job Placement">
+                    </div>
+                    <div class="program-info">
+                        <span class="program-num">03</span>
+                        <h3>Job Placement Services</h3>
+                        <p>Connect with quality employers across Cameroon and the region. Our extensive employer network guarantees interview opportunities and career development guidance for all graduates.</p>
+                        <ul class="program-features">
+                            <li><span>✓</span> Employer partnerships</li>
+                            <li><span>✓</span> Resume & interview prep</li>
+                            <li><span>✓</span> Salary negotiation coaching</li>
+                            <li><span>✓</span> Career advancement support</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Program 4 -->
+                <div class="program-item reverse">
+                    <div class="program-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=350&fit=crop" alt="Business Ventures">
+                    </div>
+                    <div class="program-info">
+                        <span class="program-num">04</span>
+                        <h3>Business Ventures & Incubation</h3>
+                        <p>Launch your dream startup with comprehensive support. From ideation to scale, we provide mentorship, workspace, networking, and seed funding for promising entrepreneurs.</p>
+                        <ul class="program-features">
+                            <li><span>✓</span> Expert mentorship</li>
+                            <li><span>✓</span> Incubation space</li>
+                            <li><span>✓</span> Seed funding (up to $5K)</li>
+                            <li><span>✓</span> Investor networking</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Section -->
+    <section class="value-section">
+        <div class="container">
+            <div class="value-grid">
+                <div class="value-text">
+                    <h2>Why Choose Reform?</h2>
+                    <p class="lead">We're not just a training provider—we're your partner in success. Our integrated ecosystem ensures every graduate finds meaningful opportunity.</p>
+                    
+                    <div class="value-list">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Proven Results</h4>
+                                <p>95% of our graduates are employed or self-employed within 6 months</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <path d="M12 1v6m0 6v6"></path>
+                                    <path d="M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24"></path>
+                                    <path d="M1 12h6m6 0h6"></path>
+                                    <path d="M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Integrated Approach</h4>
+                                <p>Train, place, or start your business—all with one organization</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
+                                    <path d="M12 6v6l4.25 2.5"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Lifetime Support</h4>
+                                <p>Career coaching, networking, and advancement opportunities for life</p>
+                            </div>
+                        </div>
+
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                    <polyline points="13 2 13 9 20 9"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Affordable & Accessible</h4>
+                                <p>Flexible payment plans and scholarships available for deserving candidates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="value-visual">
+                    <div class="stats-visual" id="statsVisual">
+                        <div class="stat-circle" id="stat1">
+                            <span class="stat-percent">95%</span>
+                            <span class="stat-text">Employment</span>
+                        </div>
+                        <div class="stat-circle" id="stat2">
+                            <span class="stat-percent">10K+</span>
+                            <span class="stat-text">Graduates</span>
+                        </div>
+                        <div class="stat-circle" id="stat3">
+                            <span class="stat-percent">50+</span>
+                            <span class="stat-text">Employers</span>
+                        </div>
+                        <div class="stat-circle" id="stat4">
+                            <span class="stat-percent">4x</span>
+                            <span class="stat-text">ROI Average</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success Stories That Inspire</h2>
+                <p>Real transformations from our community members</p>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Sarah Makanda">
+                                <div class="testimonial-meta">
+                                    <h4>Sarah Makanda</h4>
+                                    <p>Software Developer at TechCorp</p>
+                                    <div class="stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"I was unemployed for 2 years. Reform changed everything. The training was world-class, the instructors genuinely cared, and I landed a software developer role paying 3x my previous salary. Reform saved my life."</p>
+                            <div class="testimonial-result">
+                                <span>From: Unemployed</span>
+                                <span>→ To: Senior Developer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="James Nkomo">
+                                <div class="testimonial-meta">
+                                    <h4>James Nkomo</h4>
+                                    <p>Agribusiness Owner</p>
+                                    <div class="stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"The agribusiness training completely transformed my farm. From 200 chickens to 5,000 birds in one year. My income has increased by 400%. The mentorship and market connections made all the difference."</p>
+                            <div class="testimonial-result">
+                                <span>From: Struggling Farm</span>
+                                <span>→ To: Profitable Business</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Amara Diop">
+                                <div class="testimonial-meta">
+                                    <h4>Amara Diop</h4>
+                                    <p>Founder, TechHub Digital</p>
+                                    <div class="stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"Reform's incubation program was the catalyst. Expert mentors, workspace, funding, networking—everything I needed. Now my startup has 15 employees and turned $5K seed into $500K in revenue."</p>
+                            <div class="testimonial-result">
+                                <span>From: Idea</span>
+                                <span>→ To: Growing Startup</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1517849845537-1d51a20414de?w=100&h=100&fit=crop" alt="Michael Tanko">
+                                <div class="testimonial-meta">
+                                    <h4>Michael Tanko</h4>
+                                    <p>Digital Marketing Manager</p>
+                                    <div class="stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"The digital marketing course was incredibly practical. Real clients, real campaigns, real results. I completed the program and had three job offers. Best investment in myself."</p>
+                            <div class="testimonial-result">
+                                <span>From: Job Seeker</span>
+                                <span>→ To: Marketing Manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header">
+                                <img src="https://images.unsplash.com/photo-1487412992282-d529fcbf5b4d?w=100&h=100&fit=crop" alt="Grace Mensah">
+                                <div class="testimonial-meta">
+                                    <h4>Grace Mensah</h4>
+                                    <p>Cattle Farm Owner</p>
+                                    <div class="stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"From 50 cattle to 250 cattle in 18 months. The training taught me proper nutrition, health protocols, and breeding. My herd is healthy, productive, and now I mentor other farmers too."</p>
+                            <div class="testimonial-result">
+                                <span>From: 50 Cattle</span>
+                                <span>→ To: 250 Cattle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control prev" id="prevBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel-control next" id="nextBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+                <!-- Dots -->
+                <div class="carousel-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                    <button class="dot" data-slide="3"></button>
+                    <button class="dot" data-slide="4"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Leadership</h2>
+                <p>Experienced professionals dedicated to your success</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=350&fit=crop" alt="CEO">
+                        <div class="team-hover">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                    <h4>Dr. Emmanuel Tchoupo</h4>
+                    <p class="role">Founder & CEO</p>
+                    <p class="bio">20+ years in education, sustainable development, and social impact. PhD in Educational Technology.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=350&fit=crop" alt="Director">
+                        <div class="team-hover">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                    <h4>Amara Okafor</h4>
+                    <p class="role">Director of Training Programs</p>
+                    <p class="bio">Expert curriculum designer with 15 years in tech education. Former VP of Learning at regional tech firm.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=350&fit=crop" alt="Manager">
+                        <div class="team-hover">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                    <h4>Charles Molua</h4>
+                    <p class="role">Agribusiness Director</p>
+                    <p class="bio">12 years in sustainable agriculture. Trained 5,000+ farmers across Central Africa. Certified agribusiness consultant.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1517849845537-1d51a20414de?w=300&h=350&fit=crop" alt="HR">
+                        <div class="team-hover">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                    <h4>Priscilla Nkong</h4>
+                    <p class="role">Employment & Partnerships</p>
+                    <p class="bio">Veteran recruiter and network builder. Connected 3,000+ graduates with employers. Former HR Director at Fortune 500 company.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section" id="contact">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Transform Your Life Today</h2>
+                <p>Join our community of successful entrepreneurs, professionals, and business owners. Limited spots available.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Get Started Now</button>
+                    </div>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+                <p class="form-note">✓ No spam. ✓ Unsubscribe anytime. ✓ Free consultation included.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Ready for a Career Change?</h2>
+            <p>Choose your path and take the first step</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary btn-large">Skills Training</a>
+                <a href="#" class="btn btn-secondary btn-large">Agribusiness</a>
+                <a href="#" class="btn btn-secondary btn-large">Start a Business</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Reform" class="footer-logo">
+                <p><strong>Reform Cameroon</strong></p>
+                <p>Empowering through skills, agriculture, and entrepreneurship since 2018.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Programs</h5>
+                <ul>
+                    <li><a href="#">Skills Training</a></li>
+                    <li><a href="#">Agribusiness</a></li>
+                    <li><a href="#">Business Ventures</a></li>
+                    <li><a href="#">Job Placement</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Contact</h5>
+                <p>Northwest Region<br>Cameroon</p>
+                <p>Email: info@reform.cm<br>Phone: +237 XXX XXX XXX</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Reform Cameroon. All rights reserved. | Transforming Lives.</p>
+        </div>
+    </footer>
+
+    <script src="js/navigation.js" defer></script>
+</body>
+</html>
